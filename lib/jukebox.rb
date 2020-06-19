@@ -20,17 +20,10 @@ end
 
 def play(songs)
   
-  puts "Please enter a song name or number:"
-  input = gets.strip 
-  output = ""
-  songs.each_with_index do |song, index|
-    if input == (index + 1).to_s || input = song.to_s
-      puts "Playing #{song}"
-      return song 
-    else 
-      puts "Invalid input, please try again"
-    end 
-   end
+ 
+ 
+ 
+ 
 end 
 
 def exit_jukebox 
